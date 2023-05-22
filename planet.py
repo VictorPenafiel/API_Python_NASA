@@ -18,7 +18,7 @@ def pull_planetas(eleccion, n):
     return titulo, descripcion, foto
 
 if __name__== '__main__':
-    lista_titulos, descripcion, lista_pics = pull_planetas(2,3)
+    lista_titulos, descripcion, lista_pics = pull_planetas(2,5)
     print(lista_titulos)
     print(descripcion)
     print(lista_pics)

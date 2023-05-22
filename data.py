@@ -1,18 +1,18 @@
 API_KEY = 'wh3bVSxfOn0mWxv41RNyXrr82kpXI0eLrFzWWLOO'
-MENU = """Bienenido al Museo Visual de la Nasa: ¿Listo para ver y Aprender?
-    ¿Qué desea ver? 
+MENU = """Bienvenido al Museo Visual de la NASA: Prepárate para ver y aprender. 
+¿Qué te gustaría explorar en nuestra colección?”
 
-    1. Foto del Día
-    2. Fotos de Planetas
-    3. Ver la Rotación de la Tierra en un día
-    0. Salir
+    1. Descubre la foto del día
+    2. Explora impresionantes fotos de planetas
+    3. Admira fotos emblemáticas de la Tierra
+    0. Salir del programa
     """
 
-APOD = '''En este mmódulo podrás ver la Foto del Día. Esta es una foto emblemática tomada por la Nasa.
-        Por favor indica ¿Cuántas fotos quieres ver?
+APOD = '''En este módulo podrás ver la foto del día oficial de la NASA.
+        Por favor indica ¿Cuántas fotos te gustaría ver?
         > '''
 
-PLANETA = ("""En este módulo podrás ver fotos emblemáticas tomadas por la NASA.
+PLANETA = ("""En este módulo tendrás acceso a una impresionante colección de fotos emblemáticas tomadas por la NASA de los distintos planetas del sistema solar.
                         Por favor escoge un planeta:
                         1.Mercurio
                         2.Venus
@@ -24,6 +24,6 @@ PLANETA = ("""En este módulo podrás ver fotos emblemáticas tomadas por la NAS
                         8.Neptuno
                         >""")
 
-TIERRA = ("""En este módulo podrás ver Fotos emblemáticas que muestran la rotación de la Tierra.
-            Por favor escoge una fecha en la que desees ver la Tierra (máxima fecha,ayer)
-            Formato: YYYY-MM-DD""")
+TIERRA = ("""Este módulo te brinda acceso exclusivo a una impresionante selección de las mejores fotos de la Tierra, desde el año 2016 hasta el día de ayer.
+            Formato: AAAA-MM-DD
+            >""")

@@ -26,7 +26,7 @@ while True:
         id_foto = pull_fotos(n)
         html = create_html_pic(id_foto)
         show_pics(html,'apod')
-        time.sleep(3)
+        time.sleep(4)
 
     elif opcion == 2:
         os.system(clear)
@@ -37,7 +37,7 @@ while True:
         titulos, descripcion, fotos = pull_planetas(planeta,n)
         html = create_html_planet(titulos, descripcion, fotos)
         show_pics(html, 'planetas')
-        time.sleep(3)
+        time.sleep(4)
 
 
 
@@ -47,7 +47,7 @@ while True:
         fotos, horas = pull_earth(fecha)
         html = create_html_earth (fotos, horas)
         show_pics(html,'tierra')
-        time.sleep(3)
+        time.sleep(4)
 
     else:
         print('Gracias por venir')

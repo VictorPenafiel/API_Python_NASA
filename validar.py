@@ -6,5 +6,6 @@ def validate(opciones, eleccion):
 
 if __name__ == '__main__ ':
     opciones = ['1','2','3']
+    eleccion = input
     eleccion_valida = validate(opciones, eleccion)
     print(f'Opción seleccionada: {eleccion_valida}')
