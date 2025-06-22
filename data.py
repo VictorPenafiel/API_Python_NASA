@@ -24,6 +24,6 @@ PLANETA = ("""En este módulo tendrás acceso a una impresionante colección de 
                         8.Neptuno
                         >""")
 
-TIERRA = ("""Este módulo te brinda acceso exclusivo a una impresionante selección de las mejores fotos de la Tierra, desde el año 2016 hasta el día de ayer.
+TIERRA = ("""Este módulo te brinda acceso a las mejores fotos de la Tierra desde el año 2016 hasta el día de ayer.
             Formato: AAAA-MM-DD
             >""")

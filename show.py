@@ -8,7 +8,7 @@ def show_pics(html,nombre):
     print('Las fotos se mostrarán en tu Navegador...')
     time.sleep(2)
     webbrowser.open(f'{nombre}.html')
-    time.sleep(7)
+    time.sleep(5)
     os.remove(f'{nombre}.html')
 
 if __name__ == '__main__':
